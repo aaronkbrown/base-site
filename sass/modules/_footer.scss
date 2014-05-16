@@ -3,4 +3,7 @@ footer {
   display: block;
   background-color: $color-footer;
   height: 5em;
+  @media #{$mobile} {
+    height: 3em;
+  }
 }

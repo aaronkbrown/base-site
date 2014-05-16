@@ -6,4 +6,8 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Boilerplate for Node Express website' });
 });
 
+router.get('/about', function(req, res) {
+  res.render('about', { title: 'About Me' });
+});
+
 module.exports = router;
