@@ -15,5 +15,14 @@ article {
   padding:1em;
   background-color: rgba(0, 0, 0, 0.5);
   width: $width-block;
+  @media #{$tablet1} {
+    width: $width-block2;
+  }
+  @media #{$tablet2} {
+    width: $width-block3;
+  }
+  @media #{$mobile} {
+    width: $width-block4;
+  }
 }
 
