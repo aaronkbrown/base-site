@@ -9,4 +9,11 @@ body {
   background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg/800px-Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg');
 }
 
+article {
+  border: 0.3em solid $article-box;
+  margin: 0 auto;
+  padding:1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: $width-block;
+}
 

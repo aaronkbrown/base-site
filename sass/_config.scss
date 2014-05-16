@@ -4,18 +4,19 @@
 $color1: #ffa0c0;
 $color2: #80a0ff;
 $color3: #c0c0c0;
-$color4: red;
+$color4: #ffffff;
 $color5: #ffffff;
 $color6: #000000;
 
 $color-text1: $color1;
 $color-text2: $color2;
 $color-text3: $color3;
-$color-text4: $color4;
+$color-text4: $color2;
 
 $color-header: $color5;
 $color-footer: $color5;
 $color-background: $color6;
+$article-box: $color2;
 
 
 // Typography
@@ -26,8 +27,27 @@ $font3: orbitronregular, helvetica, sans-serif;
 
 $size1: 36px;
 $size2: 24px;
-$size3: 16px;
+$size3: 18px;
 
 // Scanlines
 
 $scanLineWidth: 1px;
+
+
+// Sizing
+
+$width-block: 920px;
+
+// Media queries
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  // $width-block: 720px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  // $width-block: 440px;
+}
+
+@media only screen and (max-width: 479px) {
+  // $width-block: 300px;
+}
