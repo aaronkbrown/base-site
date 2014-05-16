@@ -40,14 +40,31 @@ $width-block: 920px;
 
 // Media queries
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+$mobile: new-breakpoint(max-width 479px);
+$tablet1: new-breakpoint(min-width 768px max-width 959px);
+$tablet2: new-breakpoint(min-width 480px max-width 767px);
+$desktop: new-breakpoint(min-width 960px);
+
+// @include media($tablet1){
+//   $width-block: 720px;
+//}
+
+// @include media($tablet2){
+//   $width-block: 440px;
+// }
+
+// @include media($mobile){
+//   $width-block: 300px;
+//}
+
+// @media only screen and (min-width: 768px) and (max-width: 959px) {
   // $width-block: 720px;
-}
+// }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+// @media only screen and (min-width: 480px) and (max-width: 767px) {
   // $width-block: 440px;
-}
+// }
 
-@media only screen and (max-width: 479px) {
+// @media only screen and (max-width: 479px) {
   // $width-block: 300px;
-}
+// }
