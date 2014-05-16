@@ -13,7 +13,7 @@ article {
   border: 0.3em solid $article-box;
   margin: 0 auto;
   padding:1em;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: $color-article;
   width: $width-block;
   @media #{$tablet1} {
     width: $width-block2;
