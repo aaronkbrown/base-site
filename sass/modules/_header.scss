@@ -8,6 +8,7 @@ header {
   background-color: $color-header;
   @media #{$mobile} {
     height: 4em;
+    text-align: center;
   }
 }
 
@@ -16,11 +17,14 @@ header h1 {
   color: $color-text3;
   font-family: $font3;
   font-size: $size1;
+  float:left;
   @media #{$tablet2} {
     font-size: $size1 * 0.5;
-    margin: 1em 2em;
+    margin: 1em;
   }
   @media #{$mobile} {
     font-size: $size1 * 0.5;
+    float:none;
+    margin: 0.1em;
   }
 }
