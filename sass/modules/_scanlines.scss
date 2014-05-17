@@ -6,9 +6,9 @@
   //-moz-background-size: cover;
   //-o-background-size: cover;
   //background-size: cover;
-  height: 100%;
+  min-height: 100%;
   width:100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }

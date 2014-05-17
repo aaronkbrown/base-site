@@ -25,6 +25,6 @@ header h1 {
   @media #{$mobile} {
     font-size: $size1 * 0.5;
     float:none;
-    margin: 0.1em;
+    margin: 0;
   }
 }

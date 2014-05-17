@@ -3,7 +3,10 @@ footer {
   display: block;
   background-color: $color-footer;
   height: 5em;
+  padding: 1.9em;
+  text-align: center;
   @media #{$mobile} {
     height: 3em;
+    padding: 0.8em;
   }
 }

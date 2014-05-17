@@ -70,6 +70,15 @@ a {
   font-weight: bold;
 }
 
+small {
+  font-family: $font3;
+  color: $color-text3;
+  font-size: $size4;
+  @media #{$mobile} {
+    font-size: $size4 * 0.6;
+  }
+}
+
 article p {
   text-align: justify;
 }
