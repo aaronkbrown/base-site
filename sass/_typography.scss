@@ -79,6 +79,18 @@ small {
   }
 }
 
+ul {
+  font-family: $font3;
+  color: $color-text3;
+  font-size: $size4;
+  @media #{$tablet2} {
+    font-size: $size4 * 0.85;
+  }
+  @media #{$mobile} {
+    font-size: $size4 * 0.7;
+  }
+}
+
 article p {
   text-align: justify;
 }
@@ -89,4 +101,8 @@ article h1 {
 
 article h2 {
   text-align: left;
+}
+
+ul span {
+  font-weight: bold;
 }
