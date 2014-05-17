@@ -32,6 +32,8 @@ h1 {
   font-family: $font1;
   color: $color-text1;
   font-size: $size1;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   @media #{$tablet2} {
     font-size: $size1 * 0.85;
   }
@@ -44,6 +46,8 @@ h2 {
   font-family: $font2;
   color: $color-text2;
   font-size: $size2;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   @media #{$tablet2} {
     font-size: $size2 * 0.85;
   }
@@ -56,6 +60,8 @@ p {
   font-family: $font3;
   color: $color-text3;
   font-size: $size3;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   @media #{$tablet2} {
     font-size: $size3 * 0.85;
   }
@@ -83,12 +89,29 @@ ul {
   font-family: $font3;
   color: $color-text3;
   font-size: $size4;
+  list-style-type: $ul-style;
+  list-style-position: $ul-position;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   @media #{$tablet2} {
     font-size: $size4 * 0.85;
   }
   @media #{$mobile} {
     font-size: $size4 * 0.7;
   }
+}
+
+ul.twoColumns {
+  list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+ul.twoColumns li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: inline-block;
 }
 
 article p {
