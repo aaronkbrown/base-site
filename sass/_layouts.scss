@@ -18,9 +18,9 @@ body {
 }
 
 article {
-  border: 0.3em solid $article-box;
-  margin: 0 auto;
-  padding:1em;
+  //border: 0.3em solid $article-box;
+  margin: $spacing auto;
+  padding: $spacing;
   background-color: $color-article;
   width: $width-block;
   @media #{$tablet1} {
@@ -28,9 +28,13 @@ article {
   }
   @media #{$tablet2} {
     width: $width-block3;
+    margin: $spacing2 auto;
+    padding: $spacing2;
   }
   @media #{$mobile} {
     width: $width-block4;
+    margin: $spacing2 auto;
+    padding: $spacing2;
   }
 }
 
