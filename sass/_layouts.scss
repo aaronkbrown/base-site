@@ -6,7 +6,15 @@ html, body {
 
 body {
   background-color: $color-background;
-  background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg/800px-Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg');
+  //background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg/800px-Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg');
+}
+
+body {
+  background: url(../images/main-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 article {
