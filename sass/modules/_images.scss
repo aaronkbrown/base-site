@@ -1,0 +1,17 @@
+figure {
+  position: relative;
+}
+
+figure.portrait {
+  width: $portrait-size;
+  float:right;
+  @media #{$tablet1} {
+    width: $portrait-size * 0.83;
+  }
+  @media #{$tablet2} {
+    width: $portrait-size * 0.67;
+  }
+  @media #{$mobile} {
+    width: $portrait-size * 0.33;
+  }
+}

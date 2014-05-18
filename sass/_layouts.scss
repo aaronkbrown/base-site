@@ -23,6 +23,7 @@ article {
   padding: $spacing;
   background-color: $color-article;
   width: $width-block;
+
   @media #{$tablet1} {
     width: $width-block2;
   }
@@ -44,5 +45,20 @@ main {
   @media #{$mobile} {
     min-height: calc(100% - 7em);
   }
+}
+
+// Clearfix
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
 }
 
