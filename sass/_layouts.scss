@@ -23,10 +23,13 @@ article {
 }
 
 main {
-  min-height: calc(100% - 11em);
+  min-height: calc(100% - 15em);
   width: 100%;
+  @media #{$tablet2} {
+    min-height: calc(100% - 13em);
+  }
   @media #{$mobile} {
-    min-height: calc(100% - 7em);
+    min-height: calc(100% - 9em);
   }
 }
 
