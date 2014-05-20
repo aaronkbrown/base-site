@@ -14,4 +14,8 @@ router.get('/resume', function(req, res) {
   res.render('resume', { title: 'Resume' });
 });
 
+router.get('/links', function(req, res) {
+  res.render('links', { title: 'Links' });
+});
+
 module.exports = router;
