@@ -14,6 +14,10 @@ router.get('/resume', function(req, res) {
   res.render('resume', { title: 'Resume' });
 });
 
+router.get('/connect', function(req, res) {
+  res.render('connect', { title: 'Connect' });
+});
+
 router.get('/links', function(req, res) {
   res.render('links', { title: 'Links' });
 });
