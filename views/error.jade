@@ -1,6 +1,8 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  main
+    article
+      h1 Error
+      p Oops, this page does not exist :-(
+      p I think this is what people usually call a '404 error'
