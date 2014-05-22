@@ -34,6 +34,7 @@ h1 {
   font-size: $size1;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  text-align: left;
   @media #{$tablet2} {
     font-size: $size1 * 0.85;
   }
@@ -48,6 +49,7 @@ h2 {
   font-size: $size2;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  text-align: left;
   @media #{$tablet2} {
     font-size: $size2 * 0.85;
   }
@@ -62,6 +64,7 @@ p {
   font-size: $size3;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  text-align: justify;
   @media #{$tablet2} {
     font-size: $size3 * 0.85;
   }
@@ -114,17 +117,17 @@ ul.twoColumns li {
   display: inline-block;
 }
 
-article p {
-  text-align: justify;
-}
+//article p {
+//  text-align: justify;
+//}
 
-article h1 {
-  text-align: left;
-}
+//article h1 {
+//  text-align: left;
+//}
 
-article h2 {
-  text-align: left;
-}
+//article h2 {
+//  text-align: left;
+//}
 
 ul span {
   font-weight: bold;
