@@ -17,21 +17,21 @@ nav {
 nav a {
   float:left;
   width: 33.3%;
-  font-family: $font3;
-  font-size: $size3;
+  font-family: $font4;
+  font-size: $size6;
   color: $color-text5;
   margin-top:1em;
   text-align:center;
   @media #{$tablet1} {
-    font-size: $size3 * 0.85;
+    font-size: $size6 * 0.85;
     margin-top:1.2em;
   }
   @media #{$tablet2} {
-    font-size: $size3 * 0.7;
+    font-size: $size6 * 0.7;
     margin-top:1.6em;
   }
   @media #{$mobile} {
-    font-size: $size3 * 0.5;
+    font-size: $size6 * 0.5;
     margin-top: 0.5em;
   }
 }

@@ -15,15 +15,15 @@ header {
 header h1 {
   margin: 0.2em 1em;
   color: $color-text3;
-  font-family: $font3;
-  font-size: $size1;
+  font-family: $font4;
+  font-size: $size5;
   float:left;
   @media #{$tablet2} {
-    font-size: $size1 * 0.5;
+    font-size: $size5 * 0.5;
     margin: 1em;
   }
   @media #{$mobile} {
-    font-size: $size1 * 0.5;
+    font-size: $size5 * 0.5;
     float:none;
     text-align: center;
     margin: 0;
@@ -31,5 +31,5 @@ header h1 {
 }
 
 header a {
-  color: $color-text3;
+  color: $color-text6;
 }

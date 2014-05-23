@@ -16,8 +16,8 @@
     top,
     transparent 0px,
     transparent $scanLineWidth,
-    rgba(0,0,0,0.25) $scanLineWidth,
-    rgba(0,0,0,0.25) $scanLineWidth*2
+    rgba(0,0,0,0) $scanLineWidth,
+    rgba(0,0,0,0) $scanLineWidth*2
   );
   -webkit-background-size: 100% $scanLineWidth*2;
   /** MOZILLA **/
@@ -25,8 +25,8 @@
     top,
     transparent 0px,
     transparent $scanLineWidth,
-    rgba(0,0,0,0.25) $scanLineWidth,
-    rgba(0,0,0,0.25) $scanLineWidth*2
+    rgba(0,0,0,0) $scanLineWidth,
+    rgba(0,0,0,0) $scanLineWidth*2
   );
   -moz-background-size: 100% $scanLineWidth*2;
 }

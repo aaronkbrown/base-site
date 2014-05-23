@@ -122,10 +122,10 @@ article {
   margin: 2em auto;
   padding: 2em;
   background-color: rgba(0, 0, 0, 0);
-  width: 920px; }
+  width: 675px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     article {
-      width: 740px; } }
+      width: 675px; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     article {
       width: 460px;
@@ -136,6 +136,35 @@ article {
       width: 300px;
       margin: 1em auto;
       padding: 1em; } }
+
+.resume {
+  margin: 2em auto;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0);
+  width: 675px;
+  width: 675px; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .resume {
+      width: 675px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .resume {
+      width: 460px;
+      margin: 1em auto;
+      padding: 1em; } }
+  @media only screen and (max-width: 479px) {
+    .resume {
+      width: 300px;
+      margin: 1em auto;
+      padding: 1em; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .resume {
+      width: 675px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .resume {
+      width: 460px; } }
+  @media only screen and (max-width: 479px) {
+    .resume {
+      width: 300px; } }
 
 main {
   min-height: calc(100% - 15em);
@@ -177,75 +206,89 @@ main {
   font-weight: normal;
   font-style: normal; }
 
-h1 {
-  font-family: audiowideregular, verdana, sans-serif;
-  color: #626262;
-  font-size: 2.2em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  text-align: left; }
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    h1 {
-      font-size: 1.87em; } }
-  @media only screen and (max-width: 479px) {
-    h1 {
-      font-size: 1.54em; } }
+@font-face {
+  font-family: 'opensansregular';
+  src: url('fonts/OpenSans-Regular-webfont.eot');
+  src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular-webfont.woff') format('woff'), url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('fonts/OpenSans-Regular-webfont.svg#opensansregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
 
-h2 {
-  font-family: orbitronbold, helvetica, sans-serif;
-  color: #747474;
+@font-face {
+  font-family: 'opensansbold';
+  src: url('fonts/OpenSans-Bold-webfont.eot');
+  src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Bold-webfont.woff') format('woff'), url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('fonts/OpenSans-Bold-webfont.svg#opensansbold') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+h1 {
+  font-family: opensansregular, verdana, sans-serif;
+  color: #626262;
   font-size: 1.4em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: left; }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
-    h2 {
+    h1 {
       font-size: 1.19em; } }
   @media only screen and (max-width: 479px) {
-    h2 {
+    h1 {
       font-size: 0.98em; } }
 
+h2 {
+  font-family: opensansbold, helvetica, sans-serif;
+  color: #747474;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: left; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    h2 {
+      font-size: 0.765em; } }
+  @media only screen and (max-width: 479px) {
+    h2 {
+      font-size: 0.63em; } }
+
 p {
-  font-family: orbitronregular, helvetica, sans-serif;
+  font-family: opensansregular, helvetica, sans-serif;
   color: #000000;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: justify; }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     p {
-      font-size: 1.02em; } }
+      font-size: 0.85em; } }
   @media only screen and (max-width: 479px) {
     p {
-      font-size: 0.84em; } }
+      font-size: 0.7em; } }
 
 a {
-  color: #747474;
+  color: #00a0dc;
   text-decoration: none;
   font-weight: bold; }
 
 small {
-  font-family: orbitronregular, helvetica, sans-serif;
-  color: #000000;
-  font-size: 0.8em; }
+  font-family: opensansregular, helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 0.9em; }
   @media only screen and (max-width: 479px) {
     small {
-      font-size: 0.48em; } }
+      font-size: 0.54em; } }
 
 ul {
-  font-family: orbitronregular, helvetica, sans-serif;
+  font-family: opensansregular, helvetica, sans-serif;
   color: #000000;
-  font-size: 0.8em;
+  font-size: 0.9em;
   list-style-type: disc;
   list-style-position: inside;
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     ul {
-      font-size: 0.68em; } }
+      font-size: 0.765em; } }
   @media only screen and (max-width: 479px) {
     ul {
-      font-size: 0.56em; } }
+      font-size: 0.63em; } }
 
 ul.twoColumns {
   list-style-type: none;
@@ -268,7 +311,7 @@ header {
   height: 6em;
   display: block;
   padding-top: 1em;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(0, 0, 0, 0.75); }
   @media only screen and (max-width: 479px) {
     header {
       height: 4em;
@@ -292,12 +335,12 @@ header h1 {
       margin: 0; } }
 
 header a {
-  color: #000000; }
+  color: #00a0dc; }
 
 footer {
   width: 100%;
   display: block;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.75);
   height: 5em;
   padding: 1.9em;
   text-align: center; }
@@ -351,9 +394,6 @@ figure.portrait {
   margin-left: 2em;
   margin-top: 1em;
   margin-bottom: 0.5em; }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    figure.portrait {
-      width: 249px; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     figure.portrait {
       width: 201px;
@@ -369,10 +409,10 @@ figure.portrait {
   margin: 2em auto;
   padding: 2em;
   background-color: rgba(0, 0, 0, 0);
-  width: 920px; }
+  width: 675px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     .links, .connect, .splash {
-      width: 740px; } }
+      width: 675px; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .links, .connect, .splash {
       width: 460px;
@@ -394,10 +434,10 @@ figure.portrait {
   /*** WEBKIT ***/
   position: absolute;
   top: 0;
-  background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0.25) 1px, rgba(0, 0, 0, 0.25) 2px);
+  background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 2px);
   -webkit-background-size: 100% 2px;
   /** MOZILLA **/
-  background: -moz-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0.25) 1px, rgba(0, 0, 0, 0.25) 2px);
+  background: -moz-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 2px);
   -moz-background-size: 100% 2px; }
 
 /*# sourceMappingURL=application.css.map */

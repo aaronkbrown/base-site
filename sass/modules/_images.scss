@@ -8,9 +8,9 @@ figure.portrait {
   margin-left: 2em;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  @media #{$tablet1} {
-    width: $portrait-size * 0.83;
-  }
+  //@media #{$tablet1} {
+  //  width: $portrait-size * 0.83;
+  //}
   @media #{$tablet2} {
     width: $portrait-size * 0.67;
     margin-left: 1em;

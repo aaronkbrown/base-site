@@ -22,6 +22,20 @@ article {
   @include blockpane;
 }
 
+.resume {
+  @include blockpane;
+  width: $width-resume;
+  @media #{$tablet1} {
+    width: $width-resume;
+  }
+  @media #{$tablet2} {
+    width: $width-block3;
+  }
+  @media #{$mobile} {
+    width: $width-block4;
+  }
+}
+
 main {
   min-height: calc(100% - 15em);
   width: 100%;
