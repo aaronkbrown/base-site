@@ -10,7 +10,6 @@ Thumbs.db
 
 # Generated CSS output
 #######################
-public/stylesheets/*.css
 public/stylesheets/*.css.map
 
 # Package dependencies
