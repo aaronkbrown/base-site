@@ -183,3 +183,14 @@ ul.twoColumns li {
 ul span {
   font-weight: bold;
 }
+
+#swapper {
+  display:block;
+  position:absolute;
+  right: 2em;
+  bottom: 2em;
+  @media #{$mobile} {
+    right: 1em;
+    bottom: 1em;
+  }
+}

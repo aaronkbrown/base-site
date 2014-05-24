@@ -291,6 +291,16 @@ ul.twoColumns li {
 ul span {
   font-weight: bold; }
 
+#swapper {
+  display: block;
+  position: absolute;
+  right: 2em;
+  bottom: 2em; }
+  @media only screen and (max-width: 479px) {
+    #swapper {
+      right: 1em;
+      bottom: 1em; } }
+
 header {
   width: 100%;
   position: relative;
@@ -330,7 +340,8 @@ footer {
   background-color: rgba(0, 0, 0, 0.8);
   height: 5em;
   padding: 1.9em;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   @media only screen and (max-width: 479px) {
     footer {
       height: 3em;
