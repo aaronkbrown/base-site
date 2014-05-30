@@ -7,6 +7,7 @@ $color3: #000000;
 $color4: #ffffff;
 $color5: #00a0dc;
 $color6: #ffffff;
+$color7: #3f3f3f;
 
 $color-text1: $color1;
 $color-text2: $color2;
@@ -15,8 +16,8 @@ $color-text4: $color2;
 $color-text5: $color4;
 $color-text6: $color5;
 
-$color-header: rgba(0, 0, 0, 0.75);
-$color-footer: rgba(0, 0, 0, 0.75);
+$color-header: $color7;
+$color-footer: $color7;
 $color-article: rgba(0, 0, 0, 0);
 $color-background: $color6;
 $article-box: $color2;
