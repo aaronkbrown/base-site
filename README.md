@@ -1,1 +1,1 @@
-Setting up boilerplate for a Node Express website
+This is my Node Express website. It consists of four different page views and an error page for bad links. It also has a simple jQuery file that allows the user to switch between two different style sheets.
