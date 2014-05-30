@@ -291,13 +291,23 @@ ul.twoColumns li {
 ul span {
   font-weight: bold; }
 
-#swapper {
-  display: block;
+#swapper1 {
+  display: none;
   position: absolute;
   right: 2em;
   bottom: 2em; }
   @media only screen and (max-width: 479px) {
-    #swapper {
+    #swapper1 {
+      right: 1em;
+      bottom: 1em; } }
+
+#swapper2 {
+  display: none;
+  position: absolute;
+  right: 2em;
+  bottom: 2em; }
+  @media only screen and (max-width: 479px) {
+    #swapper2 {
       right: 1em;
       bottom: 1em; } }
 
