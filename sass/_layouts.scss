@@ -1,10 +1,13 @@
 @import "layouts/manifest";
 
-html, body {
+html {
   height: 100%;
 }
 
 body {
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
   background-color: $color-background;
   //background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg/800px-Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg');
 }
@@ -37,13 +40,15 @@ article {
 }
 
 main {
-  min-height: calc(100% - 15em);
+  //min-height: calc(100% - 15em);
   width: 100%;
+  margin-bottom: 7em;
   @media #{$tablet2} {
-    min-height: calc(100% - 13em);
+    //min-height: calc(100% - 13em);
   }
   @media #{$mobile} {
-    min-height: calc(100% - 9em);
+    //min-height: calc(100% - 9em);
+    margin-bottom: 4em;
   }
 }
 
