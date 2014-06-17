@@ -130,6 +130,11 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  color: $color-text7;
+  transition: 0.3s;
+}
+
 small {
   font-family: $font3;
   color: $color-text5;
@@ -160,6 +165,11 @@ ul.twoColumns {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+  @media #{$mobile} {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
 }
 
 ul.twoColumns li {

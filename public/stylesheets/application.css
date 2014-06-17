@@ -290,6 +290,10 @@ a {
   text-decoration: none;
   font-weight: bold; }
 
+a:hover {
+  color: #a0a0a0;
+  transition: 0.3s; }
+
 small {
   font-family: opensansregular, helvetica, sans-serif;
   color: #ffffff;
@@ -318,6 +322,11 @@ ul.twoColumns {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2; }
+  @media only screen and (max-width: 479px) {
+    ul.twoColumns {
+      columns: 1;
+      -webkit-columns: 1;
+      -moz-columns: 1; } }
 
 ul.twoColumns li {
   margin-top: 0.5em;
@@ -429,6 +438,10 @@ nav a {
     nav a {
       font-size: 0.6em;
       margin-top: 0.5em; } }
+
+nav a:hover {
+  color: #00a0dc;
+  transition: 0.3s; }
 
 figure {
   position: relative; }
