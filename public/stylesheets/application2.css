@@ -255,6 +255,11 @@ a {
   text-decoration: none;
   font-weight: bold; }
 
+a:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
 small {
   font-family: orbitronregular, helvetica, sans-serif;
   color: #c0c0c0;
@@ -399,6 +404,11 @@ nav a {
     nav a {
       font-size: 0.6em;
       margin-top: 0.5em; } }
+
+nav a:hover {
+  color: #80a0ff;
+  transition: 0.3s;
+}
 
 figure {
   position: relative; }
