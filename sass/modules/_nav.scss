@@ -1,10 +1,15 @@
 nav {
-  width: 50%;
+  width: 600px;
   display: inline-block;
   float:right;
   height: 4em;
+  //background-color: red;
+  @media #{$tablet1} {
+    width: 420px;
+  }
   @media #{$tablet2} {
-    width: 60%;
+    width: 100%;
+    height: 2em;
   }
   @media #{$mobile} {
     float:none;
@@ -15,8 +20,10 @@ nav {
 }
 
 nav a {
-  float:left;
-  width: 33.3%;
+  float:right;
+  //width: 25%;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   font-family: $font4;
   font-size: $size6;
   color: $color-text5;
@@ -25,12 +32,20 @@ nav a {
   @media #{$tablet1} {
     font-size: $size6 * 0.85;
     margin-top:1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   @media #{$tablet2} {
     font-size: $size6 * 0.7;
-    margin-top:1.6em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 25%;
+    margin-top: 0.5em;
   }
   @media #{$mobile} {
+    width: 25%;
+    margin-left: 0;
+    margin-right: 0;
     font-size: $size6 * 0.5;
     margin-top: 0.5em;
   }
