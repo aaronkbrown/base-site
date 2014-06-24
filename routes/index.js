@@ -7,19 +7,19 @@ router.get('/', function(req, res) {
 });
 
 router.get('/about', function(req, res) {
-  res.render('about', { title: 'About Me' });
+  res.render('about', { title: 'About Aaron Brown' });
 });
 
 router.get('/portfolio', function(req, res){
-  res.render('portfolio', { title: 'Portfolio' });
+  res.render('portfolio', { title: "Aaron Brown's Portfolio" });
 });
 
 router.get('/resume', function(req, res) {
-  res.render('resume', { title: 'Resume' });
+  res.render('resume', { title: "Aaron Brown's Resume" });
 });
 
 router.get('/connect', function(req, res) {
-  res.render('connect', { title: 'Connect' });
+  res.render('connect', { title: 'Connect with Aaron Brown' });
 });
 
 //router.get('/links', function(req, res) {

@@ -9,6 +9,10 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>http://aaronkbrown.herokuapp.com/portfolio</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>http://aaronkbrown.herokuapp.com/resume</loc>
     <priority>0.80</priority>
   </url>

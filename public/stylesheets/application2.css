@@ -137,7 +137,7 @@ article {
       padding: 1em; } }
   @media only screen and (max-width: 479px) {
     article {
-      width: 220px;
+      width: 95%;
       margin: 1em auto;
       padding: 1em; } }
 
@@ -427,6 +427,9 @@ nav a:hover {
 figure {
   position: relative; }
 
+.portfolio figure {
+  text-align: center; }
+
 figure.portrait {
   width: 300px;
   float: right;
@@ -462,9 +465,13 @@ figure.portrait {
       padding: 1em; } }
   @media only screen and (max-width: 479px) {
     .links, .connect, .splash {
-      width: 220px;
+      width: 95%;
       margin: 1em auto;
       padding: 1em; } }
+
+.portfolio section {
+  width: 100%;
+  margin-bottom: 3em; }
 
 .fullHeight {
   height: 100%;

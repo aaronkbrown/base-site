@@ -2,3 +2,12 @@
 .links, .connect, .splash {
   @include blockpane;
 }
+
+.portfolio section {
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.portfolio section h1 {
+  //text-align: center;
+}
