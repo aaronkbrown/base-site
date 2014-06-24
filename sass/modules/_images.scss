@@ -2,6 +2,10 @@ figure {
   position: relative;
 }
 
+.portfolio figure {
+  text-align: center;
+}
+
 figure.portrait {
   width: $portrait-size;
   float:right;
