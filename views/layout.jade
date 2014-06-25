@@ -1,5 +1,5 @@
 doctype html
-html
+html(ng-app='swapStyle')
   head
     title= title
     meta(charset='utf-8')
@@ -11,6 +11,8 @@ html
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
     script(src="/javascripts/jquery.cookie.js")
     script(src="/javascripts/html5shiv-printshiv.min.js")
+    script(src="/javascripts/angular.min.js")
+    script(src="/javascripts/app.js")
   body
     include modules/header
     block content
