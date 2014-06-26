@@ -109,6 +109,19 @@ h2 {
   }
 }
 
+h3 {
+  font-family: $font2;
+  color: $color-text2;
+  font-size: $size7;
+  text-align: left;
+  @media #{$tablet2} {
+    font-size: $size7 * 0.85;
+  }
+  @media #{$mobile} {
+    font-size: $size7 * 0.7;
+  }
+}
+
 p {
   font-family: $font3;
   color: $color-text3;
@@ -170,6 +183,7 @@ ul.twoColumns {
     columns: 1;
     -webkit-columns: 1;
     -moz-columns: 1;
+    margin-bottom: 2em;
   }
 }
 

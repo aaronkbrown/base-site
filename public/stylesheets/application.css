@@ -271,6 +271,18 @@ h2 {
     h2 {
       font-size: 0.63em; } }
 
+h3 {
+  font-family: opensansbold, helvetica, sans-serif;
+  color: #747474;
+  font-size: 0.8em;
+  text-align: left; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    h3 {
+      font-size: 0.68em; } }
+  @media only screen and (max-width: 479px) {
+    h3 {
+      font-size: 0.56em; } }
+
 p {
   font-family: opensansregular, helvetica, sans-serif;
   color: #000000;
@@ -327,7 +339,8 @@ ul.twoColumns {
     ul.twoColumns {
       columns: 1;
       -webkit-columns: 1;
-      -moz-columns: 1; } }
+      -moz-columns: 1;
+      margin-bottom: 2em; } }
 
 ul.twoColumns li {
   margin-top: 0.5em;
