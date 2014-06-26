@@ -319,6 +319,7 @@ ul {
 
 ul.twoColumns {
   list-style-type: none;
+  margin: 0;
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2; }
@@ -503,6 +504,9 @@ figure.portrait {
   width: 100%;
   margin-bottom: 3em; }
 
+
+.profile, .objective, .education {
+  margin-bottom: 2em; }
 
 .fullHeight {
   height: 100%;
