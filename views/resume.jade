@@ -4,28 +4,34 @@ block content
   main
     article.resume
       section.profile
-        h1 Profile
-        p I've been creating with technology my entire life, from tinkering in BASIC during elementary school to studying video game scripting languages during college, and everything in between. I have recently completed an intense 8-week UX engineering training course augmenting my technical skills with a deeper understanding of best industry practices, and I am prepared to hit the ground running as a front end developer.
+        h1#profileHeader Profile
+        #profileContent.resumeToggled
+          p I've been creating with technology my entire life, from tinkering in BASIC during elementary school to studying video game scripting languages during college, and everything in between. I have recently completed an intense 8-week UX engineering training course augmenting my technical skills with a deeper understanding of best industry practices, and I am prepared to hit the ground running as a front end developer.
       section.objective
-        h1 Objective
-        p I am looking for an opportunity to contribute technical value to meaningful design projects that can improve and expand my skills.
+        h1#objectiveHeader Objective
+        #objectiveContent.resumeToggled
+          p I am looking for an opportunity to contribute technical value to meaningful design projects that can improve and expand my skills.
       section.skills
-        h1 Skills
-        ul.twoColumns
-          li <strong>JavaScript/jQuery</strong> - Unobtrusive JavaScript, DOM manipulation
-          li <strong>HTML/Jade, CSS/Sass</strong> - Semantic, accessible, responsive web design
-          li <strong>Git</strong> - Feature branching, resolving merging conflicts
-          li <strong>Collaborative</strong> - Pair programming, collaborating through GitHub
-          li <strong>Communication</strong> - Customer service, teaching abstract concepts, training coworkers
+        h1#skillsHeader Skills
+        #skillsContent.resumeToggled
+          ul.twoColumns
+            li <strong>JavaScript/jQuery</strong> - Unobtrusive JavaScript, DOM manipulation
+            li <strong>HTML/Jade, CSS/Sass</strong> - Semantic, accessible, responsive web design
+            li <strong>Git</strong> - Feature branching, resolving merging conflicts
+            li <strong>Collaborative</strong> - Pair programming, collaborating through GitHub
+            li <strong>Communication</strong> - Customer service, teaching abstract concepts, training coworkers
       section.education
-        h1 Education
-        p 2014 - Code Fellows UX Engineering - Seattle, WA - Delivered functional prototype in a developer environment from the command terminal
-        p 2006 - Bachelor of Science in Chemistry, University of Washington - Seattle, WA
+        h1#educationHeader Education
+        #educationContent.resumeToggled
+          p 2014 - Code Fellows UX Engineering - Seattle, WA - Delivered functional prototype in a developer environment from the command terminal
+          p 2006 - Bachelor of Science in Chemistry, University of Washington - Seattle, WA
       section.history
-        h1 Work History
-        h2 WEB DESIGNER (2014 - PRESENT)
-        h3 Freelance
-        p I design responsive web pages in the browser, coding the HTML, CSS, and JavaScript/jQuery while managing the projects with version control.
-        h2 LABORATORY ANALYST (2006 - 2013)
-        h3 NVL Laboratories, Pace Analytical Services, Laucks Testing Laboratory
-        p As a laboratory analyst, I worked well with others prioritizing and balancing tasks in a fast deadline-driven environment. On top of this, I also periodically handled technical calls from clients as a part of customer service and have trained several new employees in instrument operation.
+        h1#historyHeader Work History
+        #historyContent.resumeToggled
+          h2 WEB DEVELOPER (2014 - PRESENT)
+          h3 Freelance
+          p I build responsive web pages in the browser, coding the HTML, CSS, and JavaScript/jQuery while managing the projects with version control.
+          h2 LABORATORY ANALYST (2006 - 2013)
+          h3 NVL Laboratories, Pace Analytical Services, Laucks Testing Laboratory
+          p As a laboratory analyst, I worked well with others prioritizing and balancing tasks in a fast deadline-driven environment. On top of this, I also periodically handled technical calls from clients as a part of customer service and have trained several new employees in instrument operation.
+  script(src="/javascripts/resumeHide.js")

@@ -332,6 +332,7 @@ ul {
 ul.twoColumns {
   list-style-type: none;
   margin: 0;
+  margin-bottom: -2em;
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2; }
@@ -340,12 +341,17 @@ ul.twoColumns {
       columns: 1;
       -webkit-columns: 1;
       -moz-columns: 1;
-      margin-bottom: 2em; } }
+      margin-bottom: 0; } }
 
 ul.twoColumns li {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   display: inline-block; }
+
+.resume h1:hover {
+  cursor: pointer;
+  color: #a0a0a0;
+  transition: 0.3s; }
 
 ul span {
   font-weight: bold; }
@@ -518,8 +524,11 @@ figure.portrait {
   margin-bottom: 3em; }
 
 
-.profile, .objective, .education {
-  margin-bottom: 2em; }
+
+.resumeToggled {
+  height: 0;
+  visibility: hidden;
+  transition: 0.5s; }
 
 .fullHeight {
   height: 100%;

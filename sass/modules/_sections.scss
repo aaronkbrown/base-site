@@ -13,5 +13,12 @@
 }
 
 .profile, .objective, .education {
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
+
+.resumeToggled {
+  height: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
