@@ -16,6 +16,12 @@
   /* margin-bottom: 2em; */
 }
 
+.resume section div {
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+
 .resumeToggled {
   height: 0;
   visibility: hidden;

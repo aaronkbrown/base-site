@@ -329,21 +329,21 @@ ul {
     ul {
       font-size: 0.63em; } }
 
-ul.twoColumns {
+ul.skillList {
   list-style-type: none;
   margin: 0;
-  margin-bottom: -2em;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2; }
+  margin-bottom: 0;
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1; }
   @media only screen and (max-width: 479px) {
-    ul.twoColumns {
+    ul.skillList {
       columns: 1;
       -webkit-columns: 1;
       -moz-columns: 1;
       margin-bottom: 0; } }
 
-ul.twoColumns li {
+ul.skillList li {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   display: inline-block; }
@@ -524,6 +524,11 @@ figure.portrait {
   margin-bottom: 3em; }
 
 
+
+.resume section div {
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1; }
 
 .resumeToggled {
   height: 0;

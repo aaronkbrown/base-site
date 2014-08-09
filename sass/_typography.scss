@@ -173,13 +173,13 @@ ul {
   }
 }
 
-ul.twoColumns {
+ul.skillList {
   list-style-type: none;
   margin: 0;
-  margin-bottom: -2em;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+  margin-bottom: 0;
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
   @media #{$mobile} {
     columns: 1;
     -webkit-columns: 1;
@@ -188,7 +188,7 @@ ul.twoColumns {
   }
 }
 
-ul.twoColumns li {
+ul.skillList li {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   display: inline-block;
