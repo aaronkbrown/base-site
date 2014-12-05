@@ -6,32 +6,72 @@ block content
       section.profile
         h1#profileHeader Profile
         #profileContent.resumeToggled
-          p I've been creating with technology my entire life, from tinkering in BASIC during elementary school to studying video game scripting languages during college, and everything in between. I have recently completed an intense 8-week UX engineering training course augmenting my technical skills with a deeper understanding of best industry practices, and I am prepared to hit the ground running as a front end developer.
-      section.objective
-        h1#objectiveHeader Objective
-        #objectiveContent.resumeToggled
-          p I am looking for an opportunity to contribute technical value to meaningful design projects that can improve and expand my skills.
+          p I am a front-end developer who has been programming and scripting since high school, and I love translating designs into code and contributing to projects that solve real problems.
       section.skills
         h1#skillsHeader Skills
         #skillsContent.resumeToggled
-          ul.skillList
-            li <strong>JavaScript/jQuery</strong> - Unobtrusive JavaScript, DOM manipulation
-            li <strong>HTML/Jade, CSS/Sass</strong> - Semantic, accessible, responsive web design
-            li <strong>Git</strong> - Feature branching, resolving merging conflicts
-            li <strong>Collaborative</strong> - Pair programming, collaborating through GitHub
-            li <strong>Communication</strong> - Customer service, teaching abstract concepts, training coworkers
-      section.education
-        h1#educationHeader Education
-        #educationContent.resumeToggled
-          p 2014 - Code Fellows UX Engineering - Seattle, WA - Delivered functional prototype in a developer environment from the command terminal
-          p 2006 - Bachelor of Science in Chemistry, University of Washington - Seattle, WA
+          .skillsBlock
+            table
+              tr
+                th Proficient
+              tr
+                td
+                  p HTML, Jade
+              tr
+                td
+                  p CSS, Sass
+              tr
+                td
+                  p JavaScript, jQuery, DOM manipulation
+              tr
+                td
+                  p Git
+              tr
+                td
+                  p Responsive Design
+          .skillsBlock
+            table
+              tr
+                th Developing
+              tr
+                td
+                  p AngularJS
+              tr
+                td
+                  p Jasmine, unit testing
+              tr
+                td
+                  p PHP
+              tr
+                td
+                  p Ruby on Rails
+              tr
+                td
+                  p AJAX, JSON parsing
+      section.projects
+        h1#projectsHeader Projects
+        #projectsContent.resumeToggled
+          h2 Crashr
+          p Social network scraper app for public events built during a Startup Weekend hackathon on a team of three developers, utilizing HTML, CSS, JavaScript, JSON, and PhoneGap
+          h2 EasyQuiz
+          p HTML quiz writing framework with data visualization of results in graph format with a responsive layout built as a solo project, utilizing HTML, Sass, and JavaScript
+          h2 Browser Adventure Game
+          p Text adventure game with a responsive GUI built as a solo project, utilizing HTML, CSS, object-oriented JavaScript, AJAX, and JSON
+          h2 Living Style Guide
+          p School project with a responsive layout and reusable elements built with a classmate, utilizing Express.js, Jade, Sass, and Grunt
       section.history
         h1#historyHeader Work History
         #historyContent.resumeToggled
           h2 WEB DEVELOPER (2014 - PRESENT)
           h3 Freelance
-          p I build responsive web pages in the browser, coding the HTML, CSS, and JavaScript/jQuery while managing the projects with version control.
+          p Wrote HTML, CSS, and JavaScript for web pages, deployed code via FTP client or command line tools, and designed in the browser to create responsive layouts and user interfaces
           h2 LABORATORY ANALYST (2006 - 2013)
           h3 NVL Laboratories, Pace Analytical Services, Laucks Testing Laboratory
-          p As a laboratory analyst, I worked well with others prioritizing and balancing tasks in a fast deadline-driven environment. On top of this, I also periodically handled technical calls from clients as a part of customer service and have trained several new employees in instrument operation.
+          p Operated and maintained analytical equipment, handled technical calls from customers, and trained several employees in using the instruments
+      section.education
+        h1#educationHeader Education
+        #educationContent.resumeToggled
+          p 2014 - Certificate of UX Engineering, Code Fellows - Seattle, WA
+          p 2006 - Bachelor of Science in Chemistry, University of Washington - Seattle, WA
+
   script(src="/javascripts/resumeHide.js")

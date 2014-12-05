@@ -7,6 +7,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+.sass-cache/
 
 # Generated CSS output
 #######################

@@ -8,7 +8,7 @@ invisibility-defining class */
 $('#profileContent').hide(0, function(){
   $(this).removeClass('resumeToggled');
 });
-$('#objectiveContent').hide(0, function(){
+$('#projectsContent').hide(0, function(){
   $(this).removeClass('resumeToggled');
 });
 $('#skillsContent').hide(0, function(){
@@ -25,8 +25,8 @@ $('#historyContent').hide(0, function(){
 $('#profileHeader').click(function(){
   $('#profileContent').slideToggle("medium");
 });
-$('#objectiveHeader').click(function(){
-  $('#objectiveContent').slideToggle("medium");
+$('#projectsHeader').click(function(){
+  $('#projectsContent').slideToggle("medium");
 });
 $('#skillsHeader').click(function(){
   $('#skillsContent').slideToggle("medium");

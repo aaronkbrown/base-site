@@ -81,8 +81,6 @@ pre, code, kbd, samp {
 .clickable, input[type=button], input[type=submit] {
   cursor: pointer; }
 
-
-
 button {
   cursor: pointer;
   margin: 0;
@@ -95,7 +93,6 @@ a.button {
 .ie7 img {
   -ms-interpolation-mode: bicubic; }
 
-
 ins {
   color: black;
   text-decoration: none; }
@@ -104,8 +101,6 @@ mark {
   font-style: italic;
   font-weight: bold; }
 
-
-
 html {
   height: 100%; }
 
@@ -113,7 +108,7 @@ body {
   min-height: 100%;
   width: 100%;
   position: absolute;
-  background-color: #ffffff; }
+  background-color: white; }
 
 body {
   -webkit-background-size: cover;
@@ -124,7 +119,7 @@ body {
 article {
   margin: 2em auto;
   padding: 2em;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   width: 675px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     article {
@@ -143,7 +138,7 @@ article {
 .resume {
   margin: 2em auto;
   padding: 2em;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   width: 675px;
   width: 675px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -172,7 +167,6 @@ article {
 main {
   width: 100%;
   margin-bottom: 7em; }
-  @media only screen and (min-width: 480px) and (max-width: 767px) { }
   @media only screen and (max-width: 479px) {
     main {
       margin-bottom: 4em; } }
@@ -189,45 +183,39 @@ main {
 
 @font-face {
   font-family: 'orbitronbold';
-  src: url('fonts/orbitron-bold-webfont.eot');
-  src: url('fonts/orbitron-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/orbitron-bold-webfont.woff') format('woff'), url('fonts/orbitron-bold-webfont.ttf') format('truetype'), url('fonts/orbitron-bold-webfont.svg#orbitronbold') format('svg');
+  src: url("fonts/orbitron-bold-webfont.eot");
+  src: url("fonts/orbitron-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/orbitron-bold-webfont.woff") format("woff"), url("fonts/orbitron-bold-webfont.ttf") format("truetype"), url("fonts/orbitron-bold-webfont.svg#orbitronbold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'orbitronregular';
-  src: url('fonts/orbitron-regular-webfont.eot');
-  src: url('fonts/orbitron-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/orbitron-regular-webfont.woff') format('woff'), url('fonts/orbitron-regular-webfont.ttf') format('truetype'), url('fonts/orbitron-regular-webfont.svg#orbitronregular') format('svg');
+  src: url("fonts/orbitron-regular-webfont.eot");
+  src: url("fonts/orbitron-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/orbitron-regular-webfont.woff") format("woff"), url("fonts/orbitron-regular-webfont.ttf") format("truetype"), url("fonts/orbitron-regular-webfont.svg#orbitronregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'audiowideregular';
-  src: url('fonts/Audiowide-Regular.ttf') format('truetype');
+  src: url("fonts/Audiowide-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'opensansregular';
-  src: url('fonts/OpenSans-Regular-webfont.eot');
-  src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular-webfont.woff') format('woff'), url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('fonts/OpenSans-Regular-webfont.svg#opensansregular') format('svg');
+  src: url("fonts/OpenSans-Regular-webfont.eot");
+  src: url("fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("fonts/OpenSans-Regular-webfont.svg#opensansregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'opensansbold';
-  src: url('fonts/OpenSans-Bold-webfont.eot');
-  src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Bold-webfont.woff') format('woff'), url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('fonts/OpenSans-Bold-webfont.svg#opensansbold') format('svg');
+  src: url("fonts/OpenSans-Bold-webfont.eot");
+  src: url("fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Bold-webfont.woff") format("woff"), url("fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("fonts/OpenSans-Bold-webfont.svg#opensansbold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?-8j22tu');
-  src: url('fonts/icomoon.eot?#iefix-8j22tu') format('embedded-opentype'), url('fonts/icomoon.woff?-8j22tu') format('woff'), url('fonts/icomoon.ttf?-8j22tu') format('truetype'), url('fonts/icomoon.svg?-8j22tu#icomoon') format('svg');
+  src: url("fonts/icomoon.eot?-8j22tu");
+  src: url("fonts/icomoon.eot?#iefix-8j22tu") format("embedded-opentype"), url("fonts/icomoon.woff?-8j22tu") format("woff"), url("fonts/icomoon.ttf?-8j22tu") format("truetype"), url("fonts/icomoon.svg?-8j22tu#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -285,7 +273,7 @@ h3 {
 
 p {
   font-family: opensansregular, helvetica, sans-serif;
-  color: #000000;
+  color: black;
   font-size: 1em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -308,7 +296,7 @@ a:hover {
 
 small {
   font-family: opensansregular, helvetica, sans-serif;
-  color: #ffffff;
+  color: white;
   font-size: 0.9em; }
   @media only screen and (max-width: 479px) {
     small {
@@ -316,7 +304,7 @@ small {
 
 ul {
   font-family: opensansregular, helvetica, sans-serif;
-  color: #000000;
+  color: black;
   font-size: 0.9em;
   list-style-type: disc;
   list-style-position: inside;
@@ -391,7 +379,7 @@ header {
 
 header h1 {
   margin: 0.2em 1em;
-  color: #000000;
+  color: black;
   font-family: orbitronregular, helvetica, sans-serif;
   font-size: 2.2em;
   float: left; }
@@ -449,7 +437,7 @@ nav a {
   margin-right: 1.5em;
   font-family: orbitronregular, helvetica, sans-serif;
   font-size: 1.2em;
-  color: #ffffff;
+  color: white;
   margin-top: 1em;
   text-align: center; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -503,7 +491,7 @@ figure.portrait {
 .links, .connect, .splash {
   margin: 2em auto;
   padding: 2em;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   width: 675px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     .links, .connect, .splash {
@@ -523,17 +511,52 @@ figure.portrait {
   width: 100%;
   margin-bottom: 3em; }
 
+.profile, .objective, .education {
+  /* margin-bottom: 2em; */ }
 
-
+/*
 .resume section div {
   columns: 1;
   -webkit-columns: 1;
-  -moz-columns: 1; }
+  -moz-columns: 1;
+}
+*/
+.skillsBlock {
+  width: 50%;
+  float: left;
+  margin-bottom: 1em; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .skillsBlock {
+      width: 100%; } }
+  @media only screen and (max-width: 479px) {
+    .skillsBlock {
+      width: 100%; } }
 
 .resumeToggled {
   height: 0;
   visibility: hidden;
   transition: 0.5s; }
+
+table {
+  width: 100%; }
+
+th {
+  text-align: center;
+  font-family: opensansregular, helvetica, sans-serif;
+  color: #747474;
+  font-size: 0.8em; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    th {
+      font-size: 0.68em; } }
+  @media only screen and (max-width: 479px) {
+    th {
+      font-size: 0.56em; } }
+
+td {
+  padding-left: 0.5em; }
+
+table tr:nth-child(even) {
+  background-color: #e0e0e0; }
 
 .fullHeight {
   height: 100%;
@@ -545,10 +568,8 @@ figure.portrait {
   /*** WEBKIT ***/
   position: absolute;
   top: 0;
-  background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 2px);
+  background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, transparent 1px, transparent 2px);
   -webkit-background-size: 100% 2px;
   /** MOZILLA **/
-  background: -moz-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 2px);
+  background: -moz-repeating-linear-gradient(top, transparent 0px, transparent 1px, transparent 1px, transparent 2px);
   -moz-background-size: 100% 2px; }
-
-/*# sourceMappingURL=application.css.map */

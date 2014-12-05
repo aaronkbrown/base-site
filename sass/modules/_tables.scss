@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  font-family: $font3;
+  color: $color-text2;
+  font-size: $size7;
+  @media #{$tablet2} {
+    font-size: $size7 * 0.85;
+  }
+  @media #{$mobile} {
+    font-size: $size7 * 0.7;
+  }
+}
+
+td {
+  padding-left: 0.5em;
+}
+
+table tr:nth-child(even) {
+  background-color: $color9;
+}
